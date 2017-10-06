@@ -3,7 +3,7 @@ type: lib
 description: OTA firmware update via the AWS IoT device shadow
 version: 1.0
 
-sources:
+sources_removed:
   - src
 
 filesystem:
