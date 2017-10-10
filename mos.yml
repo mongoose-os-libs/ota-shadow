@@ -16,5 +16,6 @@ libs:
 tags:
   - c
   - cloud
+  - rpc
 
 manifest_version: 2017-09-29
