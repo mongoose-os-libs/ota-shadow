@@ -12,6 +12,7 @@ filesystem:
 libs:
   - origin: https://github.com/mongoose-os-libs/aws
   - origin: https://github.com/mongoose-os-libs/ota-http-client
+  - origin: https://github.com/mongoose-os-libs/shadow
 
 tags:
   - c
