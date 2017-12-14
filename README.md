@@ -1,10 +1,12 @@
-# OTA firmware update via the AWS IoT device shadow
+# OTA firmware update via the device shadow
 
 
 ## Overview
 
-This library provides a way to update firmware Over-The-Air via the
-AWS IoT device shadow mechanism.
+This library provides a way to update firmware Over-The-Air via the device
+shadow mechanism.
+
+In the text below, AWS IoT Shadow will be used.
 
 It works by observing the `ota.url` entry in the device shadow. That entry must
 be an URL with the valid Mongoose OS firmware, which is a .zip file.
@@ -27,7 +29,7 @@ URL and kicks off an OTA update. The sequence of actions is as follows:
 
 ## How to trigger an OTA firmware update
 
-Build and flash the https://github.com/mongoose-os-apps/ota-aws-shadow app,
+Build and flash the https://github.com/mongoose-os-apps/demo-js app,
 start the console, and provision to AWS IoT. Open the shadow GUI for the
 device.
 
