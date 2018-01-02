@@ -41,7 +41,7 @@ and copy the firmware URL.
 
 Change the `desired` shadow state by adding a section `ota` with `url` key:
 
-```json
+```javascript
 {
   "desired": {
     "ota": {
