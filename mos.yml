@@ -17,4 +17,7 @@ tags:
   - cloud
   - rpc
 
+build_vars:
+  MGOS_ENABLE_UPDATER: 1
+
 manifest_version: 2017-09-29
