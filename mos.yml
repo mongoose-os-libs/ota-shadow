@@ -9,6 +9,9 @@ sources:
 filesystem:
   - fs
 
+config_schema:
+  - ["shadow.ota_enable", "b", false, {title: "Enable OTA via shadow"}]
+
 libs:
   - origin: https://github.com/mongoose-os-libs/shadow
 
