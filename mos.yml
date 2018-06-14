@@ -14,14 +14,13 @@ config_schema:
   - ["shadow.autocommit", "b", true, {title: "Autocommit OTA if the shadow connection is successful"}]
 
 libs:
+  - origin: https://github.com/mongoose-os-libs/ota-common
+  - origin: https://github.com/mongoose-os-libs/ota-http-client
   - origin: https://github.com/mongoose-os-libs/shadow
 
 tags:
   - c
   - cloud
   - rpc
-
-build_vars:
-  MGOS_ENABLE_UPDATER: 1
 
 manifest_version: 2017-09-29
