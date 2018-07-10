@@ -11,7 +11,7 @@ filesystem:
 
 config_schema:
   - ["shadow.ota_enable", "b", true, {title: "Enable OTA via shadow"}]
-  - ["shadow.autocommit", "b", true, {title: "Autocommit OTA if the shadow connection is successful"}]
+  - ["shadow.autocommit", "b", false, {title: "Autocommit OTA if the shadow connection is successful"}]
 
 libs:
   - origin: https://github.com/mongoose-os-libs/ota-common
