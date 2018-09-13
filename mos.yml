@@ -22,5 +22,6 @@ tags:
   - c
   - cloud
   - rpc
+  - docs:net:OTA via device shadow
 
 manifest_version: 2017-09-29
