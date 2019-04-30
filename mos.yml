@@ -14,9 +14,9 @@ config_schema:
   - ["shadow.autocommit", "b", false, {title: "Autocommit OTA if the shadow connection is successful"}]
 
 libs:
-  - origin: https://github.com/cesanta/mongoose-os/libs/ota-common
-  - origin: https://github.com/cesanta/mongoose-os/libs/ota-http-client
-  - origin: https://github.com/cesanta/mongoose-os/libs/shadow
+  - origin: https://github.com/cesanta/mongoose-os-libs/ota-common
+  - origin: https://github.com/cesanta/mongoose-os-libs/ota-http-client
+  - origin: https://github.com/cesanta/mongoose-os-libs/shadow
 
 tags:
   - c
